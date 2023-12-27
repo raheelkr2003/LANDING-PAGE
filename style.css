@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+}
+nav.flexbox {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d5c75;
+    padding-left: 10px;
+    margin: 10px;
+}
+nav.flexbox>a {
+    font-size: 30px;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 15px;
+}
+
+
+ul {        
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+}
+
+ul li {
+    margin-right: 35px;
+}
+.nav-list>li>a {
+    color: white;
+    text-decoration-line: none;
+    font-size: 25px;
+}
+
+#main1 {
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #199fb1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#main1>h1 {
+    margin-top: 90px;
+    font-size: 40px;
+    color: white;
+}
+#main1>h3 {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 23px;
+    color: white;
+}
+#main1>button {
+    margin-bottom: 110px;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    color: white;
+    background-color: #0d5c75;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#main1>button:hover{
+    background-color: #199fb1;
+    border: 3px solid #0d5c75;
+    cursor: pointer;
+    box-shadow: 0 0 20px white; /* Add a shadow effect on hover */
+}
+
+/* wwwwwwwwwwwwwwww */
+
+#feature {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #199fb1;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+.feature1 {
+    background-color: #0d5c75;
+    color: white;
+    display: flex;
+    width: 350px;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: box-shadow 0.3s, transform 0.3s; /* Add smooth transition for the shadow and size changes */
+}
+.feature1:hover {
+    box-shadow: 0 0 20px white; /* Add a shadow effect on hover */
+    transform: scale(1.1); /* Increase the size by 10% on hover */
+}
+
+
+
+
+.feature1>h1 {
+    margin-bottom: 10px;
+}
+.feature2 {
+    background-color: #0d5c75;
+    color: white;
+    display: flex;
+    width: 350px;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: box-shadow 0.3s, transform 0.3s; /* Add smooth transition for the shadow and size changes */
+}
+.feature2:hover {
+    box-shadow: 0 0 20px white; /* Add a shadow effect on hover */
+    transform: scale(1.1); /* Increase the size by 10% on hover */
+}
+
+
+
+.feature2>h1 {
+    margin-bottom: 10px;
+}
+.feature3 {
+    background-color: #0d5c75;
+    color: white;
+    display: flex;
+    width: 350px;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: box-shadow 0.3s, transform 0.3s; /* Add smooth transition for the shadow and size changes */
+}
+.feature3:hover {
+    box-shadow: 0 0 20px white; /* Add a shadow effect on hover */
+    transform: scale(1.1); /* Increase the size by 10% on hover */
+}
+
+
+.feature3>h1 {
+    margin-bottom: 10px;
+}
+
+/* wwwwwwwwwwwwwww */
+
+#contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #199fb1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#contact-us>h1  {
+  font-size: 60px;
+  margin-top: 18px;
+  color: white;
+}
+#contact-us>p {
+  font-size: 25px;
+  color: white;
+}
+#contact-us>h3{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+input {
+    width: 310px;
+    height: 35px;
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #0d5c75;
+    border: none; 
+    border-radius: 10px;
+}
+input::placeholder{
+    color: white;
+}
+.msg{
+    height: 120px;
+    padding-bottom: 70px;
+}
+#contact-us>button {
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    background-color: #0d5c75;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#contact-us>button:hover{
+    background-color: #199fb1;
+    border: 3px solid #0d5c75;
+    cursor: pointer;
+    box-shadow: 0 0 20px white; /* Add a shadow effect on hover */
+}
+
+
+/* wwwwwwwwwwww */
+.footer {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0d5c75;
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 0.5px;
+}
